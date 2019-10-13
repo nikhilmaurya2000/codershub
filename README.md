@@ -30,7 +30,7 @@ step 3. Now go to https://github.com and visit your forked "codershub" repositor
 
 step 4. Here, just above the Codes you will see a "Create Pull Request" button.
 
-This would make a PR to the original repository i.e. rajranjan0608/yourFirstPR. Follow the on-screen instructions to make a successful PR.
+This would make a PR to the original repository. Follow the on-screen instructions to make a successful PR.
 
 ## Try these questions...
 
