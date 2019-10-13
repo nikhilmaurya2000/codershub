@@ -1,7 +1,7 @@
 # codershub
 Write programs and contribute.
 
-# Try these questions.
+## Try these questions...
 
 1. Factorial of a number.
 
