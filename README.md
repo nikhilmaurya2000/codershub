@@ -9,10 +9,10 @@ step 1. Fork this repository by clicking on Fork Button above.
 step 2. Type the following commands in Linux terminal or Git Bash in Windows.
 
 ```
-git clone https://github.com/<your_github_username>/yourFirstPR
+git clone https://github.com/<your_github_username>/codershub
 ```
 ```
-cd yourFirstPR 
+cd codershub
 ```
 (Now make changes in the above cloned repository. And after making changes follow the below commands)
 ```
