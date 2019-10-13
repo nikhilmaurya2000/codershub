@@ -1,0 +1,26 @@
+#include <iostream> 
+using namespace std; 
+int reversDigits(int num);
+int main() 
+{ 
+	int num;
+  cin>>num;
+	cout << "Reverse of no. is "<< reversDigits(num); 
+	return 0; 
+} 
+
+int reversDigits(num) 
+{ 
+	int rev_num = 0,rem; 
+	while(num > 0) 
+	{ 
+    rem = num%10;
+		rev_num = rev_num*10 + rem; 
+		num = num/10; 
+	} 
+	return rev_num; 
+} 
+
+
+
+
