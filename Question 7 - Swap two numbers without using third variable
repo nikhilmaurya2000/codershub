@@ -1,0 +1,12 @@
+# Question 7 - Swap two numbers without using third variable using python 3
+
+n1 = int(input("Enter number 1: "))
+n2 = int(input("Enter number 2: "))
+
+print("Before Swapping: n1 =", n1, " n2 =", n2) 
+
+n1 = n1 + n2
+n2 = n1 - n2
+n1 = n1 - n2
+
+print("After Swapping: n1 =", n1, " n2 =", n2)
