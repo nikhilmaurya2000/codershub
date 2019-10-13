@@ -1,0 +1,5 @@
+# Question 10 - Ascii value of a character  
+  
+char = 'a'
+ 
+print("The ASCII value of '" + c + "' is", ord(c)) 
