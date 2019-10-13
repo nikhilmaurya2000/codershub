@@ -1,0 +1,17 @@
+#Python 3 code for question 2 - Fibonacci series
+
+def Fibonacci(n): 
+	if n<0: 
+		print("Invalid") 
+	elif n==0: 
+		return 0
+	elif n==1: 
+		return 1
+	else: 
+		return Fibonacci(n-1) + Fibonacci(n-2) 
+
+
+num = int(input("Enter number: "))
+print(Fibonacci(num)) 
+
+
