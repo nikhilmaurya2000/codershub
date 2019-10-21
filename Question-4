@@ -1,0 +1,20 @@
+#Author - Raghav Agrawal
+#Q7 :- Count the number of digits in an Integer
+
+def numDigit(x):
+    count = 0
+    if x == 0 :
+        count = 1
+    else :
+        while x != 0:
+            if x < 0:
+                x = -x
+                x=x//10
+                count += 1
+            elif x > 0:
+                x=x//10
+                count += 1
+
+    return count
+n = int(input("Enter the number : "))
+print("Total number of digits: ", (numDigit(n)))
