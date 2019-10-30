@@ -1,36 +1,41 @@
 
-# codershub
+# codershub :facepunch:
 
 Write programs and contribute.
 
 # Make your first pull request
 
 ## Follow the steps below...
-step 1. Fork this repository by clicking on Fork Button above.
+Step 1. Fork this repository by clicking on Fork Button above.
 
-step 2. Type the following commands in Linux terminal or Git Bash in Windows.
+Step 2. Type the following commands in Linux terminal or Git Bash in Windows.
 
 ```
 git clone https://github.com/<your_github_username>/codershub
 ```
+(Makes a clone repository in your local environment)
 ```
 cd codershub
 ```
-(Now make changes in the above cloned repository. And after making changes follow the below commands)
+(Go to the repository)
+**Now make changes in the above cloned repository. And after making changes follow the commands below.**
 ```
 git add <changed_File_or_Folder_Names>
 ```
+(Adds changes to be "commited")
 ```
 git commit -m "Commit Message"
 ```
+(Commits changes)
 ```
-git push
+git push origin master
 ```
-(Now enter your username and password if asked)
+(Pushes changes to repository)
+Now enter your username and password if asked
 
-step 3. Now go to https://github.com and visit your forked "codershub" repository.
+Step 3. Now go to https://github.com and visit your forked "codershub" repository.
 
-step 4. Here, just above the Codes you will see a "Create Pull Request" button.
+Step 4. Here, just above the Codes you will see a "Create Pull Request" button.
 
 This would make a PR to the original repository. Follow the on-screen instructions to make a successful PR.
 
